@@ -22,7 +22,7 @@ body, html {
     padding-bottom: 15px;
 }
 .jumbotron {
-    background-image: url("images/banner.jpg");
+  background-image: url("../images/banner.jpg");
     color: black;
 }
 

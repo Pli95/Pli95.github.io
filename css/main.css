@@ -1,12 +1,12 @@
 main {
     color: white;
-    background: linear-gradient(#007EA7, gray);
+    background: url("../images/background.png"), linear-gradient(to right, #e9a6a4 50%, #F5CCE8);
     size: 6in;
     min-height: 100%
 }
 
 body, html {
-    height: 100%
+    height: 100%;
 }
 
 .flex-fill {
@@ -22,8 +22,17 @@ body, html {
     padding-bottom: 15px;
 }
 .jumbotron {
-  background-image: url("../images/banner.jpg");
-    color: black;
+  background-image: url("../images/banner.jpeg");
+  background-color: #F5CCE8;
+  color: #7b5856;
+}
+
+.card {
+  background-color: #a55f5f!important;
+}
+
+.text-color {
+  color: #B57218;
 }
 
 header h1 {
@@ -31,11 +40,11 @@ header h1 {
 }
 
 nav {
-    background: linear-gradient(to right, #86d7f9 50%, white);
+    background: linear-gradient(to right, #e9a6a4 50%, white);
 }
 
 nav a:hover {
-   background-color: #0B5563;
+   background-color: #9a7a7a;
    color: white;
    cursor: pointer;
 }
